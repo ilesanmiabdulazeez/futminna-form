@@ -12,15 +12,15 @@ body{
     text-align: center;
     justify-content: center;
     display: flex;
-    object-fit: cover;
+    align-items: center;
     
 
 
 }
 .container{
     background-color: #fff;
-    height: 400px;
-    width: 300px;
+    padding: 20px;
+    width: 450px;
     border-radius: 20px;
 
 }
@@ -40,7 +40,9 @@ body{
     background-color: blue;
     color: white;
     padding: 10px 10px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
 }
 .group-element button:hover{
     background-color: #37fd12;
@@ -67,4 +69,9 @@ body{
 .section a{
     color: blue;
     
+}
+
+input{
+    width: 200px;
+    padding: 10px;
 }
